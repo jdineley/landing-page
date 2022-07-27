@@ -65,7 +65,10 @@ button {
     background-color: #3882F6;
     color: white;
     padding: 8px 16px;
+    border: none;
     border-radius: 10px;
+    margin-top: 20px;
+    
 }
 
 .content {
@@ -102,7 +105,7 @@ button {
 }
 
 .quote {
-    padding: 200px;
+    padding: 100px 200px;
     /* text-align: center; */
     background-color: #E5E7EB;
     font-style: italic;
@@ -138,4 +141,9 @@ button {
 .call {
     font-size: larger;
     font-weight: 900;
+}
+
+.button {
+    border: 1px solid white;
+    margin-top: 0;
 }
